@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from modules.files import run_ssh_copy_id_with_password; from modules.dialog_gui import password_entry; from mintmigrate import wizard_export; print\\('OK'\\)\")",
+      "Bash(python3 -c \"import mintmigrate; print\\('OK'\\)\")",
+      "Read(//var/log/apt/**)",
+      "Read(//var/log/installer/**)",
+      "Bash(zcat /var/log/installer/initial-status.gz)",
+      "Read(//var/lib/apt/**)",
+      "Bash(python3 -c ':*)"
+    ]
+  }
+}
