@@ -26,7 +26,7 @@ Run the launcher on each PC — it sets up the virtual environment automatically
 2. Choose any optional items to include (shell history, Steam, etc.) from a checklist.
 3. Pick which folders to copy (caches and large/excluded paths are never listed). You can also add custom folders.
 4. Enter your new PC's `username@address` (e.g. `alice@192.168.1.50`).
-5. The tool tests the SSH connection, then sends your files **directly into `~/`** on the new PC over the network.
+5. The tool tests the SSH connection, then sends your files **directly into `~/`** (your home folder) on the new PC over the network.
 6. A migration record (`manifest.toml`) is saved to `~/.mintmigrate/` on both computers.
 
 **On your new PC:**
