@@ -1,6 +1,6 @@
 # mintmigrate
 
-**One-time Linux Mint migration helper.** Copy your profile to a new PC over SSH, reinstall selected packages, restore your crontab, fix GPG permissions, and get a post-migration checklist — all through a guided GUI wizard.
+**One-time Linux Mint migration helper.** Copy your profile to a new PC over SSH, reinstall selected packages, restore your crontab, fix GPG permissions, and get a post-migration checklist. Via a guided GUI wizard.
 
 ## Before you start
 
