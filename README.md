@@ -1,10 +1,8 @@
 # mintmigrate
 
-**One-time Linux Mint migration helper.** Copy your profile to a new PC over SSH, reinstall selected packages, restore your crontab, fix GPG permissions, and get a post-migration checklist. Via a guided GUI wizard.
+**Migrate your Linux Mint setup to a new PC.** Copy your profile to a new PC over your home network, reinstall selected packages, restore your crontab, fix GPG permissions, and get a post-migration checklist. Via a guided GUI wizard.
 
 ## Before you start
-
-Two things to set up on your **new PC** before running the tool:
 
 **1. Install OpenSSH server** so the old PC can connect:
 ```bash
@@ -12,6 +10,8 @@ sudo apt install openssh-server
 ```
 
 **2. Create the same username** as your old PC. The tool refuses to run the new-PC setup step if you are logged in as a different user. If the numeric user ID (UID) differs, the tool warns you and can optionally run a `chown` to fix permissions.
+
+**3. Make sure both PC's stay on and are connected on the same Network (WiFi)**. This is how your profile & files are migrated.
 
 ## Running the tool
 
